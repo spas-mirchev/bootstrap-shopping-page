@@ -1,0 +1,53 @@
+@font-face {
+font-family: 'Los Angeles Homies';
+src: URL('/home/evgeniya/Downloads/WorkDocuments/FontsFree-Net-Los-Angeles-Homies.ttf') format('truetype');
+}  
+
+body {
+  /* background-color:rgb(233, 233, 233) */
+  background-image: url("201.png");
+} 
+h1 {
+    color: #22045b;
+    font-size: 7.625rem;
+    text-align: center;
+    margin: 70px auto 0 auto;
+    font-family: 'Los Angeles Homies';
+    -webkit-text-stroke: 4px rgb(245, 30, 30);
+    user-select: none;
+  }
+
+hr {
+  border: dashed rgb(0, 0, 0) 5px;
+  opacity: 1;
+  border-bottom: none;
+  background-color: rgba(0,0,0,0);
+  width: 50%;
+  margin: 5px auto;
+} 
+
+.navbar-brand {
+  font-family: 'Los Angeles Homies';
+  color: #22045b;
+  -webkit-text-stroke: 1px rgb(245, 30, 30);
+  user-select: none;
+}
+
+.nav-link {
+  color:rgb(245, 30, 30);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.card-img {
+  overflow: hidden;
+}
+.card-img img {
+  transition: all 1.3s ease;
+}
+.card-img:hover img {
+  transform: scale(1.2);
+}

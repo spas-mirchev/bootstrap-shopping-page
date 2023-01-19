@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,7 +27,9 @@
     <div class="row container-fluid">
       <nav class="navbar shadow-sm navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-          <img src="images/logo_img.png" class="logo-img" alt="logo_img" />
+          <a class="active" href="#"
+            ><img class="logo-img" src="images/logo_img.png" alt="logo_img"
+          /></a>
           <!-- We can hide the navigation links and replace them with a button that should reveal them when clicked on.-->
           <button
             class="navbar-toggler"
@@ -35,16 +40,16 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbar">
-            <!-- We can use "a" tags to navigate to different parts of the page -->
+            <!-- We can use "a" tags to navigate to different parts of the page (the logo image in navbar for return) -->
             <ul class="nav navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#lowbrow-art">About</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="#">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Login</a>
+                <a class="nav-link" href="#">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact-form">Contact</a>
@@ -54,13 +59,17 @@
         </div>
       </nav>
     </div>
+
     <br />
-    <h1>LOWBROW POSTERS</h1>
-    <hr />
+    <div class="conteiner-fluid">
+      <h1>LOWBROW POSTERS</h1>
+      <hr />
+    </div>
+
     <div class="container-fluid">
       <!-- Text center -->
       <div
-        class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-1 row-cols-xs-1 justify-content-center m-5 g-3 text-center"
+        class="row row-cols-1 row-cols-lg-5 row-cols-md-3 justify-content-center m-5 g-3 text-center"
       >
         <div class="col">
           <div class="card shadow-sm">
@@ -231,44 +240,40 @@
         </div>
       </div>
     </div>
+    <div class="container border border-white" id="lowbrow-art">
+      <p>
+        Lowbrow, or lowbrow art, is an underground visual art movement that
+        arose in the Los Angeles, California area in the late 1960s. It is a
+        populist art movement with its cultural roots in underground comix, punk
+        music, tiki culture, graffiti, and hot-rod cultures of the street. It is
+        also often known by the name pop surrealism. Lowbrow art often has a
+        sense of humor – sometimes the humor is gleeful, impish, or a sarcastic
+        comment. Some of the first artists to create what came to be known as
+        lowbrow art were underground cartoonists like Robert Williams and Gary
+        Panter. Barry McGee, Margaret Killgalen, Dan "Plasma" Rauch and Camilla
+        Elke were amongst the first to pioneer Lowbrow as a street art, zine,
+        fashion, graffiti, and counter culture movement. The purpose of the
+        lowbrow movement was to take an unorthodox approach to art and to
+        completely defy its "rules". This resulted in pushback from significant
+        individuals and organizations in the art industry. Early shows were in
+        alternative galleries in New York and Los Angeles such as Psychedelic
+        Solutions Gallery in Greenwich Village, New York City which was run by
+        Jacaeber Kastor, La Luz de Jesus run by Billy Shire and gallery in
+        Hollywood, run by John Pochna. The movement steadily grew from its
+        beginning, with hundreds of artists adopting this style. As the number
+        of artists grew, so did the number of galleries showing lowbrow. In 1992
+        Greg Escalante helped orchestrate the first formal gallery exhibition to
+        take lowbrow art seriously; painter Anthony Ausgang's solo show "Looney
+        Virtues” at the Julie Rico Gallery in Santa Monica. The Bess Cutler
+        Gallery also went on to show important artists and helped expand the
+        kind of art that was classified as lowbrow. The lowbrow magazine
+        Juxtapoz, launched in 1994 by Robert Williams, Greg Escalante, and Eric
+        Swenson, has been a mainstay of writing on lowbrow art and has helped
+        shape and expand the movement.
+      </p>
+    </div>
 
-    <section class="row">
-      <div class="container col-lg-md-10 col-md-10 pt-5 pb-5 text-center">
-        <p class="border border-white rounded-lg p-2" id="lowbrow-art">
-          Lowbrow, or lowbrow art, is an underground visual art movement that
-          arose in the Los Angeles, California area in the late 1960s. It is a
-          populist art movement with its cultural roots in underground comix,
-          punk music, tiki culture, graffiti, and hot-rod cultures of the
-          street. It is also often known by the name pop surrealism. Lowbrow art
-          often has a sense of humor – sometimes the humor is gleeful, impish,
-          or a sarcastic comment. Some of the first artists to create what came
-          to be known as lowbrow art were underground cartoonists like Robert
-          Williams and Gary Panter. Barry McGee, Margaret Killgalen, Dan
-          "Plasma" Rauch and Camilla Elke were amongst the first to pioneer
-          Lowbrow as a street art, zine, fashion, graffiti, and counter culture
-          movement. The purpose of the lowbrow movement was to take an
-          unorthodox approach to art and to completely defy its "rules". This
-          resulted in pushback from significant individuals and organizations in
-          the art industry. Early shows were in alternative galleries in New
-          York and Los Angeles such as Psychedelic Solutions Gallery in
-          Greenwich Village, New York City which was run by Jacaeber Kastor, La
-          Luz de Jesus run by Billy Shire and gallery in Hollywood, run by John
-          Pochna. The movement steadily grew from its beginning, with hundreds
-          of artists adopting this style. As the number of artists grew, so did
-          the number of galleries showing lowbrow. In 1992 Greg Escalante helped
-          orchestrate the first formal gallery exhibition to take lowbrow art
-          seriously; painter Anthony Ausgang's solo show "Looney Virtues” at the
-          Julie Rico Gallery in Santa Monica. The Bess Cutler Gallery also went
-          on to show important artists and helped expand the kind of art that
-          was classified as lowbrow. The lowbrow magazine Juxtapoz, launched in
-          1994 by Robert Williams, Greg Escalante, and Eric Swenson, has been a
-          mainstay of writing on lowbrow art and has helped shape and expand the
-          movement.
-        </p>
-      </div>
-    </section>
-
-    <!--Section: Contact v.2-->
+    <!--Section: Contact -->
     <section class="container mb-4">
       <!--Section heading-->
       <h2 class="h1-responsive font-weight-bold text-center my-4">
@@ -280,10 +285,12 @@
         directly. Our team will come back to you within a matter of hours to
         help you.
       </p>
-
+      <!-- We can click on the logo image to go back to the beginning -->
       <div class="row">
         <div class="col-md-1 p-2">
-          <img src="images/logo_img.png" class="logo-img" alt="logo_img" />
+          <a class="active" href="#"
+            ><img src="images/logo_img.png" class="logo-img" alt="logo_img"
+          /></a>
         </div>
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
@@ -347,7 +354,6 @@
               <div class="col-md-12">
                 <div class="md-form">
                   <textarea
-                    type="text"
                     id="message"
                     name="message"
                     rows="2"
@@ -361,11 +367,7 @@
           </form>
 
           <div class="text-center text-md-left">
-            <a
-              class="btn btn-outline-dark"
-              onclick="document.getElementById('contact-form').submit();"
-              >Send a query</a
-            >
+            <a class="btn btn-outline-dark">Send a query</a>
           </div>
           <div class="status"></div>
         </div>
@@ -393,7 +395,6 @@
         <!--Grid column-->
       </div>
     </section>
-    <!--Section: Contact v.2-->
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
